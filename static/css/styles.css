@@ -1,0 +1,74 @@
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #e0f7fa; /* Light background color for better contrast */
+}
+
+.container {
+    background-color: white;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    text-align: center; /* Centering text for better aesthetics */
+}
+
+h1 {
+    color: #00796b; /* Darker color for the header */
+    margin-bottom: 1rem;
+}
+
+form {
+    margin-bottom: 1rem;
+}
+
+input[type="file"] {
+    margin-bottom: 1rem;
+    border: 1px solid #00796b; /* Adding border for better visibility */
+    border-radius: 5px;
+    padding: 0.5rem;
+    font-size: 1rem;
+    outline: none; /* Removing outline */
+}
+
+button {
+    background-color: #00796b; /* Matching button color with the theme */
+    color: white;
+    padding: 0.7rem 1.2rem; /* Slightly bigger button */
+    border: none;
+    border-radius: 5px; /* Rounded corners for buttons */
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Smooth transition on hover */
+}
+
+button:hover {
+    background-color: #004d40; /* Darker shade on hover */
+}
+
+.hidden {
+    display: none;
+}
+
+#uploaded-image {
+    border: 2px solid #00796b; /* Border around the uploaded image */
+    border-radius: 10px; /* Rounded corners for images */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15); /* Soft shadow for the image */
+    margin-top: 20px;
+    max-width: 100%; /* Responsive image */
+    height: auto; /* Maintain aspect ratio */
+}
+
+h2 {
+    color: #004d40; /* Darker color for the result heading */
+    margin-top: 20px; /* Space above the heading */
+}
+
+p {
+    font-size: 1.2rem; /* Bigger font size for result text */
+    color: #444; /* Dark gray for better readability */
+}

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Classification</title>
+    <link rel="stylesheet" href="/static/css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>MoodSnap: Happy or Sad</h1>
+        <form id="upload-form" enctype="multipart/form-data">
+            <input type="file" id="image-upload" name="file" accept="image/*" required>
+            <button type="submit">Classify Image</button>
+        </form>
+        <div id="result" class="hidden">
+            <h2>Result:</h2>
+            <p id="classification"></p>
+        </div>
+        <img id="uploaded-image" style="display:none; margin-top: 20px; max-width: 50%; height: auto;" />
+    </div>
+    <script src="/static/js/script.js"></script>
+</body>
+</html>
